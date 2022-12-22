@@ -20,6 +20,8 @@
 - Position the pupils such that they are centered in each sclera and resemble eyes
 - Add the `eyes` container to the **Stage**
 
+![Example](./examples/03.png "Example")
+
 4. Animate the googly eyes
 - Create a function `animateEyes` which takes a single number parameter `time`
 - Inside the `animateEyes` function, create a statement that sets the value of the `position.y` property of each pupil using the following expression:
@@ -48,6 +50,8 @@
 - Add all legs to the `bug` container
 - Add the `bug` container to the **Stage**
 
+![Example](./examples/05.png "Example")
+
 6. Animate the legs
 - Create function `animateLegs` which takes a single number parameter `time`
 - Inside the `animateLegs` function, create a statement that sets the value of the `rotation` property of each leg using the following expressions:
@@ -63,6 +67,8 @@
 - Add the `body` to the `bug` container
 - Set the position of the `eyes` to **(25, 0)** and add it to the `bug` container
   - **Note:** Don't forget to delete the code that adds the `eyes` to the **Stage**
+
+![Example](./examples/07.png "Example")
 
 8. Factory functions
 - Create a new file `bugFactory.ts`
