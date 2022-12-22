@@ -2,6 +2,8 @@
 
 ## Bug Simulator
 
+![Example](./examples/Animation.gif "Example")
+
 1. Setup application
 - Download project files and setup libraries
 - Import the Pixi library and create an application with 800x600 resolution. Add the application's view to the page
@@ -109,7 +111,7 @@
 - Modify the `update` function so that it calls the methods `animateEyes` and `animateLegs` from the `bug` instance
 
 11. **(BONUS)** Make the bug move
-- Set the speed of the bug to be non-zero (try with 2 and adjust to your preference)
+- Set the direction and speed of the bug to be non-zero (try with **Math.PI / 4** and **2** and adjust to your preference)
 - Add a `velocity` property to the bug with `x` and `y` properties
 - Calculate the starting `velocity` using:
 ```javascript
